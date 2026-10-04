@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Mochila urbana de lona",
+    "price": 39.99,
+    "description": "Mochila resistente de uso diario con compartimento acolchado para portátil, bolsillo frontal y correas ajustables.",
+    "category": "accesorios",
+    "image": "https://picsum.photos/seed/marketplace-product-1/600/600",
+    "rating": { "rate": 0.6, "count": 128 }
+  },
+  {
+    "id": 2,
+    "title": "Auriculares inalámbricos",
+    "price": 59.95,
+    "description": "Auriculares Bluetooth ligeros con sonido nítido, controles integrados y hasta veinte horas de autonomía.",
+    "category": "electrónica",
+    "image": "https://picsum.photos/seed/marketplace-product-2/600/600",
+    "rating": { "rate": 4.4, "count": 86 }
+  },
+  {
+    "id": 3,
+    "title": "Reloj clásico de acero",
+    "price": 84.5,
+    "description": "Reloj analógico con caja de acero inoxidable, esfera minimalista y correa ajustable para cualquier ocasión.",
+    "category": "accesorios",
+    "image": "https://picsum.photos/seed/marketplace-product-3/600/600",
+    "rating": { "rate": 4.7, "count": 54 }
+  },
+  {
+    "id": 4,
+    "title": "Zapatillas deportivas ligeras",
+    "price": 64.99,
+    "description": "Zapatillas cómodas con malla transpirable y suela flexible para caminar, entrenar o vestir a diario.",
+    "category": "calzado",
+    "image": "https://picsum.photos/seed/marketplace-product-4/600/600",
+    "rating": { "rate": 4.3, "count": 203 }
+  },
+  {
+    "id": 5,
+    "title": "Gafas de sol polarizadas",
+    "price": 27.5,
+    "description": "Gafas de sol con lentes polarizadas y montura ligera, diseñadas para proteger la vista en días luminosos.",
+    "category": "accesorios",
+    "image": "https://picsum.photos/seed/marketplace-product-5/600/600",
+    "rating": { "rate": 4.5, "count": 97 }
+  },
+  {
+    "id": 6,
+    "title": "Botella térmica reutilizable",
+    "price": 22.99,
+    "description": "Botella de acero inoxidable con aislamiento de doble pared que conserva las bebidas frías o calientes durante horas.",
+    "category": "hogar",
+    "image": "https://picsum.photos/seed/marketplace-product-6/600/600",
+    "rating": { "rate": 4.8, "count": 311 }
+  },
+  {
+    "id": 7,
+    "title": "Camiseta básica de algodón",
+    "price": 18,
+    "description": "Camiseta unisex de algodón suave, corte recto y cuello redondo; una prenda esencial para todos los días.",
+    "category": "ropa",
+    "image": "https://picsum.photos/seed/marketplace-product-7/600/600",
+    "rating": { "rate": 4.2, "count": 142 }
+  },
+  {
+    "id": 8,
+    "title": "Lámpara de escritorio LED",
+    "price": 34.9,
+    "description": "Lámpara LED regulable con brazo flexible y luz uniforme para estudiar o trabajar cómodamente.",
+    "category": "hogar",
+    "image": "https://picsum.photos/seed/marketplace-product-8/600/600",
+    "rating": { "rate": 4.6, "count": 73 }
+  },
+  {
+    "id": 9,
+    "title": "Teclado mecánico compacto",
+    "price": 79.99,
+    "description": "Teclado mecánico compacto con teclas retroiluminadas, conexión USB-C y distribución cómoda para escribir.",
+    "category": "electrónica",
+    "image": "https://picsum.photos/seed/marketplace-product-9/600/600",
+    "rating": { "rate": 4.5, "count": 65 }
+  },
+  {
+    "id": 10,
+    "title": "Cartera de piel sintética",
+    "price": 24.95,
+    "description": "Cartera compacta con varios compartimentos para tarjetas y billetes, fabricada en material resistente de fácil cuidado.",
+    "category": "accesorios",
+    "image": "https://picsum.photos/seed/marketplace-product-10/600/600",
+    "rating": { "rate": 4.1, "count": 118 }
+  },
+  {
+    "id": 11,
+    "title": "Altavoz Bluetooth portátil",
+    "price": 45,
+    "description": "Altavoz portátil con emparejamiento Bluetooth, batería recargable y un diseño compacto para llevar a cualquier parte.",
+    "category": "electrónica",
+    "image": "https://picsum.photos/seed/marketplace-product-11/600/600",
+    "rating": { "rate": 4.4, "count": 156 }
+  },
+  {
+    "id": 12,
+    "title": "Sudadera con capucha",
+    "price": 42.5,
+    "description": "Sudadera de mezcla de algodón con capucha ajustable, bolsillo delantero y tejido cálido para los días frescos.",
+    "category": "ropa",
+    "image": "https://picsum.photos/seed/marketplace-product-12/600/600",
+    "rating": { "rate": 4.3, "count": 89 }
+  },
+  {
+    "id": 13,
+    "title": "Ratón inalámbrico ergonómico",
+    "price": 29.99,
+    "description": "Ratón inalámbrico ergonómico con sensibilidad ajustable, clic silencioso y receptor USB incluido.",
+    "category": "electrónica",
+    "image": "https://picsum.photos/seed/marketplace-product-13/600/600",
+    "rating": { "rate": 4.6, "count": 221 }
+  },
+  {
+    "id": 14,
+    "title": "Cojín decorativo de lino",
+    "price": 19.5,
+    "description": "Cojín decorativo de tacto suave con funda extraíble y cierre oculto, ideal para renovar cualquier espacio.",
+    "category": "hogar",
+    "image": "https://picsum.photos/seed/marketplace-product-14/600/600",
+    "rating": { "rate": 4, "count": 42 }
+  },
+  {
+    "id": 15,
+    "title": "Zapatillas casual de lona",
+    "price": 38.75,
+    "description": "Zapatillas de lona versátiles con plantilla acolchada y suela de goma antideslizante para uso diario.",
+    "category": "calzado",
+    "image": "https://picsum.photos/seed/marketplace-product-15/600/600",
+    "rating": { "rate": 4.2, "count": 134 }
+  },
+  {
+    "id": 16,
+    "title": "Cámara web Full HD",
+    "price": 54.99,
+    "description": "Cámara web Full HD con micrófono integrado, enfoque automático y soporte ajustable para videollamadas.",
+    "category": "electrónica",
+    "image": "https://picsum.photos/seed/marketplace-product-16/600/600",
+    "rating": { "rate": 4.5, "count": 77 }
+  },
+  {
+    "id": 17,
+    "title": "Bufanda de punto suave",
+    "price": 21.95,
+    "description": "Bufanda ligera de punto suave y diseño atemporal, fácil de combinar y cómoda para llevar todo el invierno.",
+    "category": "ropa",
+    "image": "https://picsum.photos/seed/marketplace-product-17/600/600",
+    "rating": { "rate": 4.7, "count": 59 }
+  },
+  {
+    "id": 18,
+    "title": "Organizador de escritorio",
+    "price": 16.8,
+    "description": "Organizador compacto con varios espacios para mantener ordenados bolígrafos, notas y accesorios de trabajo.",
+    "category": "hogar",
+    "image": "https://picsum.photos/seed/marketplace-product-18/600/600",
+    "rating": { "rate": 4.1, "count": 36 }
+  },
+  {
+    "id": 19,
+    "title": "Pulsera minimalista",
+    "price": 32,
+    "description": "Pulsera de diseño minimalista con acabado metálico resistente y cierre ajustable para un uso cómodo.",
+    "category": "accesorios",
+    "image": "https://picsum.photos/seed/marketplace-product-19/600/600",
+    "rating": { "rate": 4.4, "count": 91 }
+  },
+  {
+    "id": 20,
+    "title": "Manta ligera de algodón",
+    "price": 35.25,
+    "description": "Manta ligera y transpirable de algodón, perfecta para el sofá, la cama o para llevar de viaje.",
+    "category": "hogar",
+    "image": "https://picsum.photos/seed/marketplace-product-20/600/600",
+    "rating": { "rate": 4.8, "count": 104 }
+  }
+]
