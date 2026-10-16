@@ -7,6 +7,11 @@
         @click="showCart = true"
       >
         <img src="@/assets/icons/shopping-cart.svg" alt="Shopping Cart" />
+        <span
+          v-if="cart.itemCount > 0"
+          class="flex items-center justify-center size-4 shrink-0 bg-amber-100 text-xs rounded-full text-cyan-900"
+          >{{ cart.itemCount }}</span
+        >
       </button>
     </div>
 
@@ -16,7 +21,9 @@
 
 <script setup lang="ts">
 import CartComponent from '../cart/CartComponent.vue'
+import { useCartStore } from '../../stores/cartStore'
 import { ref } from 'vue'
 
 const showCart = ref(false)
+const cart = useCartStore()
 </script>
