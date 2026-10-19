@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed inset-0 z-50 h-full w-screen overflow-y-auto bg-amber-50 text-cyan-900">
+  <div class="fixed inset-0 z-40 h-full w-screen overflow-y-auto bg-amber-50 text-cyan-900">
     <header class="flex items-center justify-between px-6 py-4 bg-white">
       <button
         type="button"
@@ -102,20 +102,73 @@
         </div>
         <div class="flex items-center justify-center">
           <button
-            class="flex w-fit py-2 px-4 rounded-md bg-amber-500 hover:bg-amber-600 text-white text-bold cursor-pointer"
+            @click="showConfirmation = true"
+            :disabled="cart.items.length === 0"
+            class="flex w-fit py-2 px-4 rounded-md bg-amber-500 hover:bg-amber-600 text-white text-bold cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Proceed to Checkout
           </button>
         </div>
+        <div class="flex flex-col gap-0.5 mt-2">
+          <p class="flex items-center gap-2 text-xs">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="oklch(71.5% 0.143 215.221)"
+              class="size-4"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            Inmediate download after payment.
+          </p>
+          <p class="flex items-center gap-2 text-xs">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="oklch(71.5% 0.143 215.221)"
+              class="size-4"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            Technical support included.
+          </p>
+          <p class="flex items-center gap-2 text-xs">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="oklch(71.5% 0.143 215.221)"
+              class="size-4"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            Certification guarantee.
+          </p>
+        </div>
       </div>
     </div>
+    <PurchaseConfirmationModal v-if="showConfirmation" @close="showConfirmation = false" />
   </div>
 </template>
 
 <script setup lang="ts">
+import PurchaseConfirmationModal from './PurchaseConfirmationModal.vue'
 import { useCartStore } from '../../stores/cartStore'
+import { ref } from 'vue'
 
 const cart = useCartStore()
+const showConfirmation = ref(false)
 
 const emit = defineEmits<{ close: [] }>()
 
