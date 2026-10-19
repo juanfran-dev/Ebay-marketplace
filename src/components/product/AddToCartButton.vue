@@ -1,7 +1,8 @@
 <template>
   <button
     type="button"
-    class="flex items-center gap-2 rounded-md bg-cyan-500 py-2 text-white transition-colors duration-300 hover:bg-cyan-600 active:bg-cyan-700"
+    :disabled="added"
+    class="flex items-center gap-2 rounded-md bg-cyan-500 py-2 text-white transition-colors duration-300 hover:bg-cyan-600 active:bg-cyan-700 disabled:cursor-not-allowed disabled:opacity-75 disabled:hover:bg-cyan-500"
     @click="handleAddToCart"
   >
     <svg
@@ -35,6 +36,10 @@ const added = ref(false)
 let feedbackTimeout: ReturnType<typeof setTimeout> | undefined
 
 function handleAddToCart() {
+  if (added.value) {
+    return
+  }
+
   cart.addToCart(props.product)
   added.value = true
 
