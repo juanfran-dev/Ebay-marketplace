@@ -1,14 +1,20 @@
 <template>
-  <div class="flex min-h-screen w-full items-center justify-center py-4">
-    <ul class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4">
-      <li v-for="product in products" :key="product.id">
-        <ProductComponent :productData="product" />
-      </li>
-    </ul>
+  <div class="flex flex-col">
+    <NavbarComponent />
+    <div class="flex min-h-screen w-full items-center justify-center py-4">
+      <ul
+        class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-4"
+      >
+        <li v-for="product in products" :key="product.id">
+          <ProductComponent :productData="product" />
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import NavbarComponent from '../components/comun/NavbarComponent.vue'
 import ProductComponent from '../components/product/ProductCompent.vue'
 import { onMounted, ref } from 'vue'
 import type { Product } from '../interfaces/product'
